@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{a15e0907-2e08-4cef-a130-80b284643808}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TP3</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SFML_ROOT)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SFML_ROOT)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SFML_ROOT)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SFML_ROOT)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-main-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-window-d.lib;openal32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /d /y "$(SFML_ROOT)\bin\Debug\*.*" "..\Debug\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-system.lib;sfml-main.lib;sfml-graphics.lib;sfml-audio.lib;sfml-network.lib;sfml-window.lib;openal32.lib;TP3_Structures.dll;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /d /y "$(SFML_ROOT)\bin\Release\*.*" "..\Release\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Activatable.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="BoardObstacle.cpp" />
+    <ClCompile Include="Bonus.cpp" />
+    <ClCompile Include="Cargo.cpp" />
+    <ClCompile Include="Carrier.cpp" />
+    <ClCompile Include="Crusher.cpp" />
+    <ClCompile Include="Destroyable.cpp" />
+    <ClCompile Include="DoubleBlaster.cpp" />
+    <ClCompile Include="DoubleBlasterAdder.cpp" />
+    <ClCompile Include="DoubleBlasterAdder.h" />
+    <ClCompile Include="ElectroBomb.cpp" />
+    <ClCompile Include="EndScene.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyProjectile.cpp" />
+    <ClCompile Include="EnergyBall.cpp" />
+    <ClCompile Include="ExplosiveBomb.cpp" />
+    <ClCompile Include="Followed.cpp" />
+    <ClCompile Include="FollowedCargo.cpp" />
+    <ClCompile Include="FollowedCommands.cpp" />
+    <ClCompile Include="FollowedInputs.cpp" />
+    <ClCompile Include="FollowEntity.cpp" />
+    <ClCompile Include="Follower.cpp" />
+    <ClCompile Include="ForwardBlaster.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="HUD.cpp" />
+    <ClCompile Include="Inputs.cpp" />
+    <ClCompile Include="Lazer.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Movable.cpp" />
+    <ClCompile Include="Option.cpp" />
+    <ClCompile Include="OptionAdder.cpp" />
+    <ClCompile Include="PlasmaBall.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerCommands.cpp" />
+    <ClCompile Include="PointsMultiplicator.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="Beam.cpp" />
+    <ClCompile Include="ProjectileTurret.cpp" />
+    <ClCompile Include="RessourceManager.cpp" />
+    <ClCompile Include="Shadow.cpp" />
+    <ClCompile Include="Shield.cpp" />
+    <ClCompile Include="ShieldAdder.cpp" />
+    <ClCompile Include="SideBlaster.cpp" />
+    <ClCompile Include="SideBlasterAdder.cpp" />
+    <ClCompile Include="Slash.cpp" />
+    <ClCompile Include="Slasher.cpp" />
+    <ClCompile Include="SlasherAdder.cpp" />
+    <ClCompile Include="Stalker.cpp" />
+    <ClCompile Include="Structures.cpp" />
+    <ClCompile Include="Sujet.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="TriShooter.cpp" />
+    <ClCompile Include="TriShooterAdder.cpp" />
+    <ClCompile Include="Trooper.cpp" />
+    <ClCompile Include="TrooperCargo.cpp" />
+    <ClCompile Include="Turret.cpp" />
+    <ClCompile Include="Twist.cpp" />
+    <ClCompile Include="TwistedShooter.cpp" />
+    <ClCompile Include="TwistedShooterAdder.cpp" />
+    <ClCompile Include="UserControlled.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="WeaponAdder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Activatable.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="BitmaskManager.h" />
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="BoardObstacle.h" />
+    <ClInclude Include="Bonus.h" />
+    <ClInclude Include="Cargo.h" />
+    <ClInclude Include="Carrier.h" />
+    <ClInclude Include="Crusher.h" />
+    <ClInclude Include="Destroyable.h" />
+    <ClInclude Include="DoubleBlaster.h" />
+    <ClInclude Include="ElectroBomb.h" />
+    <ClInclude Include="EndScene.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyProjectile.h" />
+    <ClInclude Include="EnergyBall.h" />
+    <ClInclude Include="ExplosiveBomb.h" />
+    <ClInclude Include="Followed.h" />
+    <ClInclude Include="FollowedCargo.h" />
+    <ClInclude Include="FollowedCommands.h" />
+    <ClInclude Include="FollowedInputs.h" />
+    <ClInclude Include="FollowEntity.h" />
+    <ClInclude Include="Follower.h" />
+    <ClInclude Include="ForwardBlaster.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="HUD.h" />
+    <ClInclude Include="Inputs.h" />
+    <ClInclude Include="IObservateur.h" />
+    <ClInclude Include="IUpdatable.h" />
+    <ClInclude Include="Lazer.h" />
+    <ClInclude Include="Movable.h" />
+    <ClInclude Include="Option.h" />
+    <ClInclude Include="OptionAdder.h" />
+    <ClInclude Include="PlasmaBall.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerCommands.h" />
+    <ClInclude Include="PointsMultiplicator.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="Beam.h" />
+    <ClInclude Include="ProjectileTurret.h" />
+    <ClInclude Include="RessourceManager.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Shadow.h" />
+    <ClInclude Include="Shield.h" />
+    <ClInclude Include="ShieldAdder.h" />
+    <ClInclude Include="SideBlaster.h" />
+    <ClInclude Include="SideBlasterAdder.h" />
+    <ClInclude Include="Slash.h" />
+    <ClInclude Include="Slasher.h" />
+    <ClInclude Include="SlasherAdder.h" />
+    <ClInclude Include="Stalker.h" />
+    <ClInclude Include="Structures\deque.h" />
+    <ClInclude Include="Structures\deque.hpp" />
+    <ClInclude Include="Structures\list.h" />
+    <ClInclude Include="Structures\list.hpp" />
+    <ClInclude Include="Structures\stack.h" />
+    <ClInclude Include="Structures\stack.hpp" />
+    <ClInclude Include="Sujet.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="TriShooter.h" />
+    <ClInclude Include="TriShooterAdder.h" />
+    <ClInclude Include="Trooper.h" />
+    <ClInclude Include="TrooperCargo.h" />
+    <ClInclude Include="Turret.h" />
+    <ClInclude Include="Twist.h" />
+    <ClInclude Include="TwistedShooter.h" />
+    <ClInclude Include="TwistedShooterAdder.h" />
+    <ClInclude Include="UserControlled.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="WeaponAdder.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Ressources\Spites\Objets\Enemi.png" />
+    <Image Include="Ressources\Spites\Objets\Joueur.png" />
+    <Image Include="Ressources\Sprites\Background\Layer1.png" />
+    <Image Include="Ressources\Sprites\Background\Layer2.png" />
+    <Image Include="Ressources\Sprites\Background\Layer3.png" />
+    <Image Include="Ressources\Sprites\HUD\hud.png" />
+    <Image Include="Ressources\Sprites\HUD\hud_example.png" />
+    <Image Include="Ressources\Sprites\HUD\hud_multipliers.png" />
+    <Image Include="Ressources\Sprites\HUD\hud_shield.png" />
+    <Image Include="Ressources\Sprites\HUD\instructions.png" />
+    <Image Include="Ressources\Sprites\HUD\score.png" />
+    <Image Include="Ressources\Sprites\Level\cave_floor_1.png" />
+    <Image Include="Ressources\Sprites\Level\cave_floor_2.png" />
+    <Image Include="Ressources\Sprites\Level\cave_floor_3.png" />
+    <Image Include="Ressources\Sprites\Level\cave_floor_4.png" />
+    <Image Include="Ressources\Sprites\Level\cave_floor_5.png" />
+    <Image Include="Ressources\Sprites\Level\cave_roof_1.png" />
+    <Image Include="Ressources\Sprites\Level\cave_roof_2.png" />
+    <Image Include="Ressources\Sprites\Level\cave_roof_3.png" />
+    <Image Include="Ressources\Sprites\Level\cave_roof_4.png" />
+    <Image Include="Ressources\Sprites\Level\cave_roof_5.png" />
+    <Image Include="Ressources\Sprites\Level\cave_wall_1.png" />
+    <Image Include="Ressources\Sprites\Level\cave_wall_2.png" />
+    <Image Include="Ressources\Sprites\Level\cave_wall_3.png" />
+    <Image Include="Ressources\Sprites\Level\cave_wall_4.png" />
+    <Image Include="Ressources\Sprites\Level\cave_wall_5.png" />
+    <Image Include="Ressources\Sprites\Level\factory_entrance_bottom.png" />
+    <Image Include="Ressources\Sprites\Level\factory_entrance_top.png" />
+    <Image Include="Ressources\Sprites\Level\factory_entrance_wall.png" />
+    <Image Include="Ressources\Sprites\Level\factory_floor.png" />
+    <Image Include="Ressources\Sprites\Level\factory_obstacle.png" />
+    <Image Include="Ressources\Sprites\Level\factory_roof.png" />
+    <Image Include="Ressources\Sprites\Level\factory_wall.png" />
+    <Image Include="Ressources\Sprites\Level\factory_window.png" />
+    <Image Include="Ressources\Sprites\Level\pipe_big.png" />
+    <Image Include="Ressources\Sprites\Level\pipe_small.png" />
+    <Image Include="Ressources\Sprites\Level\space_ground.png" />
+    <Image Include="Ressources\Sprites\Level\space_hill_1.png" />
+    <Image Include="Ressources\Sprites\Level\space_hill_2.png" />
+    <Image Include="Ressources\Sprites\Level\space_hill_3.png" />
+    <Image Include="Ressources\Sprites\Level\space_hill_4.png" />
+    <Image Include="Ressources\Sprites\Level\space_hill_5.png" />
+    <Image Include="Ressources\Sprites\Level\space_rock.png" />
+    <Image Include="Ressources\Sprites\Objects\beam.png" />
+    <Image Include="Ressources\Sprites\Objects\bombIcon.png" />
+    <Image Include="Ressources\Sprites\Objects\bonus_electro_bomb.png" />
+    <Image Include="Ressources\Sprites\Objects\bonus_explosive_bomb.png" />
+    <Image Include="Ressources\Sprites\Objects\bonus_option.png" />
+    <Image Include="Ressources\Sprites\Objects\bonus_points.png" />
+    <Image Include="Ressources\Sprites\Objects\bonus_shield.png" />
+    <Image Include="Ressources\Sprites\Objects\bonus_weapon.png" />
+    <Image Include="Ressources\Sprites\Objects\cargo.png" />
+    <Image Include="Ressources\Sprites\Objects\carrier.png" />
+    <Image Include="Ressources\Sprites\Objects\crusher.png" />
+    <Image Include="Ressources\Sprites\Objects\energyBall.png" />
+    <Image Include="Ressources\Sprites\Objects\fireball.png" />
+    <Image Include="Ressources\Sprites\Objects\follower.png" />
+    <Image Include="Ressources\Sprites\Objects\lazer.png" />
+    <Image Include="Ressources\Sprites\Objects\option.png" />
+    <Image Include="Ressources\Sprites\Objects\laser.jpg" />
+    <Image Include="Ressources\Sprites\Objects\plasmaBall.png" />
+    <Image Include="Ressources\Sprites\Objects\player.png" />
+    <Image Include="Ressources\Sprites\Objects\shadow.png" />
+    <Image Include="Ressources\Sprites\Objects\slash.png" />
+    <Image Include="Ressources\Sprites\Objects\stalker.png" />
+    <Image Include="Ressources\Sprites\Objects\trooper.png" />
+    <Image Include="Ressources\Sprites\Objects\turret.png" />
+    <Image Include="Ressources\Sprites\Objects\twist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Ressources\Fonts\Inky Thin Pixels.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Ressources\Sounds\blaster-firing.wav" />
+    <Media Include="Ressources\Sounds\ExploBomb.wav" />
+    <Media Include="Ressources\Sounds\mainMenu.wav" />
+    <Media Include="Ressources\Sounds\missionFailed.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

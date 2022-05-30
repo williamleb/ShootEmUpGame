@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Objects">
+      <UniqueIdentifier>{9e53bbc3-2c59-42f0-b5f9-3a17a3d8cf3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Scenes">
+      <UniqueIdentifier>{7d3c991d-28ed-44b5-951f-3e9fe122df4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Objects">
+      <UniqueIdentifier>{f9f44f8a-2e65-4867-8f25-c1aa038c17c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Attributes">
+      <UniqueIdentifier>{63259164-b856-4d4d-995d-330c482db3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Attributes">
+      <UniqueIdentifier>{41cb2574-cab6-4eeb-87c8-dccea63dfd2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Sprites">
+      <UniqueIdentifier>{d84526a7-c7f1-4cb2-b037-3075c02b095b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Commands">
+      <UniqueIdentifier>{a07924b9-29bb-4ce0-b14f-79ab9dbaabd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Commands">
+      <UniqueIdentifier>{303422aa-ab3c-4dab-845a-72c619b0a59d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Sprites\Objects">
+      <UniqueIdentifier>{f3d3fc02-af19-4b5a-8e98-e70c3e243f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Scenes">
+      <UniqueIdentifier>{4f226ab1-fd47-447f-ac0d-d5ca7131bf41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Sprites\Background">
+      <UniqueIdentifier>{8856c513-2c11-47aa-8d80-a69695a50c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Weapons">
+      <UniqueIdentifier>{103e74fd-2abd-498f-8a0d-54f35d5bc54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Weapons">
+      <UniqueIdentifier>{423320e1-812b-4a9b-ae9d-840b13dcc8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Objects\Movables">
+      <UniqueIdentifier>{c75ed761-1438-4224-84d4-8e34e57d47b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Objects\Movables\Projectiles">
+      <UniqueIdentifier>{d60e83e8-a17d-48d9-98f3-e69a6c5a7ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Objects\Movables\Bonus">
+      <UniqueIdentifier>{3b4fa79e-9b44-4f0b-9833-5fd63d8c1ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Objects\Movables\Enemies">
+      <UniqueIdentifier>{e4a866e2-4dae-41a7-b2a7-1b5913b8aed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Objects\Movables">
+      <UniqueIdentifier>{2845fb59-0dca-4ab3-ace6-7d1531f342f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Objects\Movables\Projectiles">
+      <UniqueIdentifier>{e1e73b9b-1a91-42e6-815f-584dd1cdcca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Objects\Movables\Bonus">
+      <UniqueIdentifier>{6d2a340c-685d-46cd-8405-87a73700344d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Objects\Movables\Enemies">
+      <UniqueIdentifier>{d9628da4-3319-495e-9b23-7b061e78d819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Objects\Movables\Bonus\WeaponAdders">
+      <UniqueIdentifier>{b2bab405-2598-46e7-9542-390e30875559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Objects\Movables\Bonus\WeaponAdders">
+      <UniqueIdentifier>{d0e4109f-5b50-456d-ae69-b2c0b709b991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Objects\Movables\UserControlled">
+      <UniqueIdentifier>{ad0ab25a-b154-461f-a7e1-28e1f95690df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Objects\Movables\UserControlled">
+      <UniqueIdentifier>{ec4fda7c-a0e5-4052-9bf3-ed4c81e98e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Sprites\HUD">
+      <UniqueIdentifier>{1d3b3b5a-1236-4ba3-a883-9a1421bb6f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Sprites\Level">
+      <UniqueIdentifier>{e198e5b3-c0ac-49c8-9e9f-6618dd277aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Fonts">
+      <UniqueIdentifier>{6eccbe8e-7c71-4f65-b2ff-116411c662d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures de données">
+      <UniqueIdentifier>{4631d4c9-8db2-4b6c-bf76-797eb34682fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures de données\Source">
+      <UniqueIdentifier>{5711be9e-65e3-4ee3-b811-50e5cd62ce1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures de données\En-Tête">
+      <UniqueIdentifier>{300ec2c8-10bc-461f-8ed2-e9696bb9a555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Objects\Movables\Enemies\FollowEntities">
+      <UniqueIdentifier>{4599c1dd-9aea-4f8f-b438-e1c8a5348849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Objects\Movables\Enemies\FollowEntities">
+      <UniqueIdentifier>{35f21962-9b99-451c-a0df-9d8c3c185526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Objects\Movables\Projectiles\EnemyProjectile">
+      <UniqueIdentifier>{4e7052c5-bb3c-4c5c-a421-445974dcb165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Objects\Movables\Projectiles\EnemyProjectile">
+      <UniqueIdentifier>{e9d557fc-9f8b-4153-8c0c-bf9ee3e69115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Objects\Movables\Cargo">
+      <UniqueIdentifier>{ec85769b-623c-4c03-8e28-a7bfac16159e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Objects\Movables\Cargo">
+      <UniqueIdentifier>{4db03ed5-494a-4e4d-b214-a1aa72fa611f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Sounds">
+      <UniqueIdentifier>{757328bf-b46f-4eb9-b746-eddd616641af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RessourceManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Fichiers sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sujet.cpp">
+      <Filter>Fichiers sources\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Destroyable.cpp">
+      <Filter>Fichiers sources\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Fichiers sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>Fichiers sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Activatable.cpp">
+      <Filter>Fichiers sources\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCommands.cpp">
+      <Filter>Fichiers sources\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Fichiers sources\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="ForwardBlaster.cpp">
+      <Filter>Fichiers sources\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="SideBlaster.cpp">
+      <Filter>Fichiers sources\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Bonus.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponAdder.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Bonus\WeaponAdders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldAdder.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="ElectroBomb.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosiveBomb.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="PointsMultiplicator.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Fichiers sources\Objects\Movables</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Fichiers sources\Objects\Movables</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardObstacle.cpp">
+      <Filter>Fichiers sources\Objects\Movables</Filter>
+    </ClCompile>
+    <ClCompile Include="Movable.cpp">
+      <Filter>Fichiers sources\Objects\Movables</Filter>
+    </ClCompile>
+    <ClCompile Include="Option.cpp">
+      <Filter>Fichiers sources\Objects\Movables\UserControlled</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources\Objects\Movables\UserControlled</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="UserControlled.cpp">
+      <Filter>Fichiers sources\Objects\Movables\UserControlled</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionAdder.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Structures.cpp">
+      <Filter>Structures de données\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Stalker.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Trooper.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Followed.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Enemies\FollowEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowEntity.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Enemies\FollowEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="Follower.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Enemies\FollowEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowedCommands.cpp">
+      <Filter>Fichiers sources\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowedInputs.cpp">
+      <Filter>Fichiers sources\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Crusher.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Carrier.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="TriShooter.cpp">
+      <Filter>Fichiers sources\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Slasher.cpp">
+      <Filter>Fichiers sources\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBlaster.cpp">
+      <Filter>Fichiers sources\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="TwistedShooter.cpp">
+      <Filter>Fichiers sources\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyProjectile.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Projectiles\EnemyProjectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Lazer.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Projectiles\EnemyProjectile</Filter>
+    </ClCompile>
+    <ClCompile Include="PlasmaBall.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Slash.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Beam.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Twist.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="EnergyBall.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Projectiles\EnemyProjectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Cargo.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Cargo</Filter>
+    </ClCompile>
+    <ClCompile Include="TrooperCargo.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Cargo</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowedCargo.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Cargo</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBlasterAdder.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Bonus\WeaponAdders</Filter>
+    </ClCompile>
+    <ClCompile Include="TwistedShooterAdder.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Bonus\WeaponAdders</Filter>
+    </ClCompile>
+    <ClCompile Include="TriShooterAdder.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Bonus\WeaponAdders</Filter>
+    </ClCompile>
+    <ClCompile Include="SlasherAdder.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Bonus\WeaponAdders</Filter>
+    </ClCompile>
+    <ClCompile Include="SideBlasterAdder.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Bonus\WeaponAdders</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBlasterAdder.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Bonus\WeaponAdders</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileTurret.cpp">
+      <Filter>Fichiers sources\Objects\Movables\Projectiles\EnemyProjectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs.cpp">
+      <Filter>Fichiers sources\Commands</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="RessourceManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Fichiers d%27en-tête\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Fichiers d%27en-tête\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="IObservateur.h">
+      <Filter>Fichiers d%27en-tête\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sujet.h">
+      <Filter>Fichiers d%27en-tête\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpdatable.h">
+      <Filter>Fichiers d%27en-tête\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Destroyable.h">
+      <Filter>Fichiers d%27en-tête\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Fichiers d%27en-tête\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>Fichiers d%27en-tête\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Activatable.h">
+      <Filter>Fichiers d%27en-tête\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCommands.h">
+      <Filter>Fichiers d%27en-tête\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs.h">
+      <Filter>Fichiers d%27en-tête\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Fichiers d%27en-tête\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="ForwardBlaster.h">
+      <Filter>Fichiers d%27en-tête\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="SideBlaster.h">
+      <Filter>Fichiers d%27en-tête\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Bonus.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponAdder.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Bonus\WeaponAdders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldAdder.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="ElectroBomb.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosiveBomb.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="PointsMultiplicator.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardObstacle.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables</Filter>
+    </ClInclude>
+    <ClInclude Include="Movable.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\UserControlled</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\UserControlled</Filter>
+    </ClInclude>
+    <ClInclude Include="UserControlled.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\UserControlled</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionAdder.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures\deque.h">
+      <Filter>Structures de données\En-Tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures\list.h">
+      <Filter>Structures de données\En-Tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures\stack.h">
+      <Filter>Structures de données\En-Tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures\deque.hpp">
+      <Filter>Structures de données\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures\list.hpp">
+      <Filter>Structures de données\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures\stack.hpp">
+      <Filter>Structures de données\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Stalker.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Trooper.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowEntity.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Enemies\FollowEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="Followed.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Enemies\FollowEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="Follower.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Enemies\FollowEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowedCommands.h">
+      <Filter>Fichiers d%27en-tête\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowedInputs.h">
+      <Filter>Fichiers d%27en-tête\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Crusher.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Carrier.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="TriShooter.h">
+      <Filter>Fichiers d%27en-tête\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Slasher.h">
+      <Filter>Fichiers d%27en-tête\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="TwistedShooter.h">
+      <Filter>Fichiers d%27en-tête\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleBlaster.h">
+      <Filter>Fichiers d%27en-tête\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="PlasmaBall.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Slash.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyProjectile.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Projectiles\EnemyProjectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Lazer.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Projectiles\EnemyProjectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Beam.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Twist.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileTurret.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Projectiles\EnemyProjectile</Filter>
+    </ClInclude>
+    <ClInclude Include="EnergyBall.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Projectiles\EnemyProjectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Cargo.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Cargo</Filter>
+    </ClInclude>
+    <ClInclude Include="TrooperCargo.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Cargo</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowedCargo.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Cargo</Filter>
+    </ClInclude>
+    <ClInclude Include="SideBlasterAdder.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Bonus\WeaponAdders</Filter>
+    </ClInclude>
+    <ClInclude Include="TriShooterAdder.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Bonus\WeaponAdders</Filter>
+    </ClInclude>
+    <ClInclude Include="TwistedShooterAdder.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Bonus\WeaponAdders</Filter>
+    </ClInclude>
+    <ClInclude Include="SlasherAdder.h">
+      <Filter>Fichiers d%27en-tête\Objects\Movables\Bonus\WeaponAdders</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmaskManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Ressources\Spites\Objets\Enemi.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Spites\Objets\Joueur.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\option.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\laser.jpg">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Background\Layer1.png">
+      <Filter>Fichiers de ressources\Sprites\Background</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Background\Layer2.png">
+      <Filter>Fichiers de ressources\Sprites\Background</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Background\Layer3.png">
+      <Filter>Fichiers de ressources\Sprites\Background</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\turret.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\fireball.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\player.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\HUD\hud.png">
+      <Filter>Fichiers de ressources\Sprites\HUD</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\HUD\hud_example.png">
+      <Filter>Fichiers de ressources\Sprites\HUD</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\space_ground.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\HUD\hud_multipliers.png">
+      <Filter>Fichiers de ressources\Sprites\HUD</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\HUD\hud_shield.png">
+      <Filter>Fichiers de ressources\Sprites\HUD</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\bonus_shield.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\bombIcon.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\stalker.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\shadow.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\trooper.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\follower.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\carrier.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\crusher.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\plasmaBall.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\beam.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\cargo.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\slash.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\twist.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\energyBall.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\lazer.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\HUD\instructions.png">
+      <Filter>Fichiers de ressources\Sprites\HUD</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\HUD\score.png">
+      <Filter>Fichiers de ressources\Sprites\HUD</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\bonus_electro_bomb.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\bonus_explosive_bomb.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\bonus_option.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\bonus_points.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Objects\bonus_weapon.png">
+      <Filter>Fichiers de ressources\Sprites\Objects</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_floor_1.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_floor_2.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_floor_3.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_floor_4.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_floor_5.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_roof_1.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_roof_2.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_roof_3.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_roof_4.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_roof_5.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_wall_1.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_wall_2.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_wall_3.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_wall_4.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\cave_wall_5.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\factory_entrance_bottom.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\factory_entrance_top.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\factory_entrance_wall.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\factory_floor.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\factory_obstacle.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\factory_roof.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\factory_wall.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\factory_window.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\pipe_big.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\pipe_small.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\space_hill_1.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\space_hill_2.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\space_hill_3.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\space_hill_4.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\space_hill_5.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+    <Image Include="Ressources\Sprites\Level\space_rock.png">
+      <Filter>Fichiers de ressources\Sprites\Level</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Ressources\Fonts\Inky Thin Pixels.ttf">
+      <Filter>Fichiers de ressources\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Ressources\Sounds\mainMenu.wav">
+      <Filter>Fichiers de ressources\Sounds</Filter>
+    </Media>
+    <Media Include="Ressources\Sounds\blaster-firing.wav">
+      <Filter>Fichiers de ressources\Sounds</Filter>
+    </Media>
+    <Media Include="Ressources\Sounds\missionFailed.wav">
+      <Filter>Fichiers de ressources\Sounds</Filter>
+    </Media>
+    <Media Include="Ressources\Sounds\ExploBomb.wav">
+      <Filter>Fichiers de ressources\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
