@@ -1,6 +1,6 @@
-# Platformer Game
+# Shoot 'Em Up Game
 
-This is the second game I made using the C++ programming language. 
+This is the third game I made using the C++ programming language. 
 
 In this game, you play as a spaceship from a side view perspective. You must reach the end of the level by avoiding damages, picking up power ups and defeating enemies.
 
